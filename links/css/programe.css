@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.sectionI{
+    width: 100%;
+    height:auto;
+
+}
+img{
+    margin-left: 250px;
+    height: 450px;
+    text-align: center;    
+}
+.pro-head{
+    text-align: center;
+    margin: 8px;
+    padding: 15px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.courses{
+    width: 100%;
+    margin: 12px 15px;
+
+}
+
+.human{
+    font-size: 21px;
+    font-family: sans-serif;
+    padding: 21px;
+}
+
+.small{
+    font-size: 19px;
+    font-family: sans-serif;
+    padding: 18px;
+    margin-left: 18px;
+}
+
+.smallpara{
+    text-align:justify;
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sectionII{
+    background-color: aqua;
+    height: auto;
+}
+.ASD{
+    background-color: aqua;
+
+}
+.shead{
+    margin: 15px;
+    padding: 24px;
+    font-size: 21px;
+    font-family: sans-serif;
+
+}
+.desc{
+    text-align: center;
+    font-size: 22px;
+    font-family: cursive;
+    padding: 12px;
+}

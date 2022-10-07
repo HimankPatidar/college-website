@@ -1,0 +1,166 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.section1{
+    margin: 0%;
+}
+.img{
+    text-align: center;
+}
+.vision{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+.subhead{
+    padding: 15px 12px;
+    font-size: 17px;
+    font-family: sans-serif;                                                                               
+}
+
+.pgraph{
+    margin: 5px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;                                                                                     
+}
+.miss{
+    padding: 18px 10px;
+    font-size: 21px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pgraph2{
+    margin: 7px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Section 2*/
+
+.sectionB{
+    width: 100%;
+    height: 900px;
+    padding: 23px;
+    margin: auto;
+}
+
+.about{
+    padding: 18px;
+    margin: 8px;
+    width: 100%;
+    height: 100vh;
+}
+.khaitan{
+    text-align: center;
+    font-size: 31px;
+    font-family: sans-serif;
+    padding: 12px;
+}
+.paras2{
+    margin:4px;
+    font-size: 21px;
+    font-family: sans-serif;
+    text-align:left;
+    margin-right: 6px;
+    padding: 10px;
+
+}
+.paras3{
+    margin:4px;
+    font-size: 21px;
+    font-family: sans-serif;
+    text-align:left;
+    margin-right: 6px;
+    padding: 10px;
+}
+
+.paras4{
+    margin:4px;
+    font-size: 21px;
+    font-family: sans-serif;
+    text-align:left;
+    margin-right: 6px;
+    padding: 10px;
+}
+
+.paras5{
+    margin:4px;
+    font-size: 21px;
+    font-family: sans-serif;
+    text-align:left;
+    margin-right: 6px;
+    padding: 10px;
+}
+
+.paras6{
+    margin:4px;
+    font-size: 21px;
+    font-family: sans-serif;
+    text-align:left;
+    margin-right: 6px;
+    padding: 10px;
+}
+.paras7{
+    margin:4px;
+    font-size: 21px;
+    font-family: sans-serif;
+    text-align:left;
+    margin-right: 6px;
+    padding: 10px;
+}
+
+.paras8{
+    margin:4px;
+    font-size: 21px;
+    font-family: sans-serif;
+    text-align:left;
+    margin-right: 6px;
+    padding: 10px;
+}
+
+/*Section3*/
+
+.sectionC{
+    height:auto
+}
+
+.DLP{
+    text-align: center;
+    margin: 10px;
+    padding: 21px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.aress{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 12px;
+    padding: 2px;
+}
+.aress2{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 8px;
+    padding: 2px;
+}
+.email{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 8px;
+    padding: 2px;
+}
+.web{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 8px;
+    padding: 2px;
+}
+.ytube{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 8px;
+    padding: 2px;
+}

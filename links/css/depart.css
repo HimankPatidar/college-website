@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:;wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.sectionA1{
+    height: auto;
+    margin: 8px;
+
+}
+.H1{
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+}
+.s-graph{
+    padding: 14px;
+    font-size: 18px;
+    font-family: sans-serif;
+
+}
+.opart{
+    padding: 21px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.paragraph{
+    padding: 18px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+/*SectionA2*/
+
+.H3{
+    background-color: yellowgreen;
+    padding: 14px;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hod{
+    border: none;
+    padding: 21px;
+    border-radius: 10%;
+}
+.Detail{
+    display: flex;
+    background-color: black;
+}
+.person{
+    text-decoration: none;
+    letter-spacing: 2px;
+    background-color: black;
+    margin-left: 450px;
+    padding: 23px;
+    color: aqua;
+    font-size: 19px;
+    font-family: sans-serif;
+    
+}

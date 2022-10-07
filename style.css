@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:;wght@300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+body{
+
+    width: 100vw;
+    font-family: 'Roboto';
+}
+.header{
+    position:relative;
+    min-width: 100vw;
+    height: 20vh;
+    background-color: crimson;
+    display: flex;
+
+}
+.header h1{
+    position: relative;
+    text-align: center;
+    padding: 3px;
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto';
+}
+
+
+.logo{
+    height: auto;
+    border: none;
+    margin-left: 28px;
+    border-radius: 50%;
+}
+
+.nav-link li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 19px;
+    font-family: 'Roboto';
+}
+
+.nav-link ul{
+    padding: 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+    overflow: hidden;
+}
+
+.nav-link li a:hover{
+    color: black;
+    background-color:sandybrown;
+    box-shadow: rgba(0,0,0.6)
+}
+
+.slide-container{
+    position: relative;
+    width: 100vw;
+    height: 360px;
+}
+.slide img{
+    width: 100vw;
+    height: 360px;
+}
+
+.arrow{
+    cursor: pointer;
+    position: relative;
+    bottom: 45%;
+    color: black;
+    background-color: whitesmoke;
+    padding: 8px 17px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    
+}   
+
+.prev{
+    left: 10px;
+}
+.next{
+    left: 90%;
+}
+
+.slide{
+   display: none;
+}
+
+/* Section A */
+
+.sectionA{
+    width: auto;
+    margin: 0px;
+    padding: 12px;
+    background-color: aliceblue;
+}
+
+.head{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Roboto';
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+}
+.para{
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, 'Roboto';
+    text-align: center;
+    padding: 14px;
+    
+}
+
+/*Section 2*/
+
+.section2{
+    width: 100vw;
+    display: flex;
+    margin: auto;
+    height: 100vh;
+    padding: 23px;
+    background-color: darkslategray;
+}
+
+.Events{
+    width: 50%;
+    height: 100vh;
+}
+
+.news{
+    padding: 25px;
+    font-size: 1.7rem;
+    font-family: Verdana, Geneva, Tahoma, 'Roboto';
+    color: whitesmoke;
+}
+
+.download-container{
+    margin: 12px;
+    background-color: white;
+    width: 70%;
+    height: 67vh;
+    border: none;
+    border-radius: 23px;
+    overflow: auto;
+}
+
+.btn{
+    background-color: rgb(197, 105, 105);
+    padding: 23px;
+    border: none;
+    font-size: 19px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: lightgray
+}
+
+.para1{
+    font-family: 'Roboto';;
+    margin: 2px;
+    padding: 4px;
+    font-size: 19px;
+}
+.para2{
+    font-family: 'Roboto';
+    margin: 2px;
+    padding: 4px;
+    font-size: 19px;
+
+}
+.para3{
+    font-family: 'Roboto';
+    margin: 6px;
+    padding: 7px;
+    font-size: 15px;
+}
+.para4{
+    font-family: 'Roboto';
+    margin: 6px;
+    padding: 7px;
+    font-size: 15px;
+}
+.para5{
+    font-family: 'Roboto';
+    margin: 6px;
+    padding: 7px;
+    font-size: 15px;
+}
+.Important-link{
+    width: 50vw;
+    float: right;
+    color: white;
+    text-transform: uppercase;
+    bottom: 50%;
+    margin-top: 12px
+}
+
+.head-link{
+    top: 50%;
+    font-size: 25px;
+    padding: 17px;
+    font-family: 'Roboto';
+    text-align: center;
+    width: 70%;
+    margin-left: 48px;
+}
+
+.sublink{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    height:67vh;
+    width: 70%;
+    margin-top: 14px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 23px;
+    padding: 12px 23px;
+    background-color: white;
+    overflow:scroll;
+}
+.sublink a{
+    text-decoration: none;
+    color:black;
+    margin: 14px;   
+    padding: 15px 10px;
+    position: relative;
+}
+
+.sublink a:hover{
+    color: blue;
+}
+
+/* Section 3*/
+.man-link{
+    text-align: center;
+    padding: 25px;
+    font-size: 29px;
+    font-family: Arial, Helvetica, 'Roboto';
+
+}
+
+.image{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px;
+    width: auto;
+    text-decoration: none;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+.desc{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Roboto';
+    letter-spacing: 2px;
+    margin: 3px;
+}
+
+.desc:hover{
+    color: gray;
+}
+
+/*Section4*/
+
+.section4{
+    background-color: darkslategrey;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.nodal{
+    margin: 10px;
+
+}
+.footer{
+    margin: 12px;
+    padding: 25px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto';
+}
+.paras{
+    margin: 8px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Roboto';
+    padding: 16px;
+
+}
+
+.social{
+    top: 28px;
+    width: 300px;
+}
+
+.follow{
+    font-size: 25px;
+    font-family: 'Roboto';
+    color: white;
+    padding: 25px;
+    bottom: 28px;
+}
+.social{
+    text-align: center;
+    padding: 25px;
+    font-size: 38px;
+    margin: 10px;
+}
+.twit{
+    cursor: pointer;
+    color: #1da1f2 ;
+}
+.twit:hover{
+    cursor: pointer;
+    color:darkblue
+}
+
+.face{
+    color: #4267B2;
+    cursor: pointer;
+}
+.face:hover{
+    cursor: pointer;
+    color: deepskyblue;
+}
+.inst{
+    cursor: pointer;
+    color: #ad4766;
+}
+.inst:hover{
+    cursor: pointer;
+    color: red;
+}
+.whats{
+    cursor: pointer;
+    color: green;
+}
+.whats:hover{
+    cursor: pointer;
+    color: lime;
+}
+             
+.address{
+    
+    text-align: center;
+}
+.add{
+    text-align: center;
+    margin: 25px;
+    padding: 17px;
+    font-size: 25px;
+    font-family: 'Roboto';
+    color: white;
+
+}
+.paradd{
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto';
+    text-align: center;
+
+}
